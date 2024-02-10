@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.floatlayout</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        nav{
+            background-color: aquamarine;
+            padding: 30px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            padding: 20px;
+        }
+        li a{
+            text-decoration: none;
+            font-size: 20pxpx;
+        }
+        section{
+            background-color: aqua;
+            float: left;
+            width: 30%;
+            height: 500px;
+
+
+        }
+    
+    div{
+        background-color: bisque;
+
+        float: left;
+        width: 40%;
+        height: 500px;
+
+    }
+    aside{
+        background-color: azure;
+        float: left;
+        width: 30%;
+        height: 500px;
+    }
+    footer{
+        text-align: center;
+        background-color: black;
+        color: white;
+        clear: both;
+    }
+    
+        
+
+    @media (max-width: 700px){
+        section,aside,div{
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <h1 style="background-color: coral;">TATA</h1>
+    </header>
+    <nav>
+        <ul style="text-align: center;">
+            <li><a href="HOME">HOME</a></li>
+            <li><a class="anchor" href="SERVICE">SERVICE</a></li>
+            <li><a href="HELP">HELP</a></li>
+            <li><a href="PRODUCT">CONTACT</a></li>
+        </ul>
+    </nav>
+    <ASide >
+        <h1 style="text-align: center;">FORTUNER</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quidem, eaque sapiente commodi dolor modi veritatis expedita illum, nisi assumenda quaerat dolore nostrum atque a nulla est ipsa eveniet sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil saepe, ea tenetur iusto hic voluptas aspernatur? Voluptatum blanditiis ratione officiis qui alias? Iure repellat ut, illo iusto aliquid natus quidem!</p>
+
+    </ASide>
+    <SEction>
+        <H1 style="text-align: center;">INOVA</H1>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex libero sit officiis, debitis quod, obcaecati, dolore eligendi nulla quos sed maxime. Quia nobis aperiam odio perspiciatis? Dolor sint vitae doloribus?</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed veritatis, nulla ipsa atque quaerat, maxime harum enim nam officiis itaque ipsam, in voluptatibus architecto suscipit provident magnam quisquam perspiciatis.</P>
+
+    </SEction>
+    <div>
+        <h1 style="text-align: center;">TATA Benze</h1>
+ 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ratione voluptatum voluptates, asperiores aut in officiis assumenda velit sequi beatae dolorum quibusdam iure excepturi itaque, laudantium obcaecati delectus odit repudiandae?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi iste quaerat magnam corrupti et eum sint maxime perspiciatis officia earum? Voluptatibus hic ipsum ea at inventore enim! Eum, sequi cupiditate.`</p>
+    </div>
+    <footer>
+        <h1>footer</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </footer>
+</body>
+
+</html>

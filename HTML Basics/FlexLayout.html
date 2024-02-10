@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: gray;
+            padding: 30px;
+        }
+        nav{
+            background-color: aqua;
+            padding: 30px;
+            flex: 10;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            padding: 20px;
+            
+        }
+        li a{
+            text-decoration: none;
+            font-size: 20px;
+        } 
+        aside{
+            background-color: crimson;
+            flex: 20;
+            
+        }
+        section{
+            background-color: chartreuse;
+            flex: 30;
+           
+        }
+        article{
+            background-color: violet;
+            flex: 40;
+            
+        }
+        
+        div{
+            display: flex;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            height: 100px;
+        }
+        @media (max-width:700px){
+           
+                flex-direction: column;
+            
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: center;">
+    <h1>Cars</h1>
+    </header>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallary</a></li>
+                <li><a href="">Contact</a></li>
+    
+            </ul>
+        </nav>
+        <aside>
+            <h1>THAR</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam praesentium voluptates nostrum consectetur quos magnam illo nulla optio ducimus vitae voluptatem quidem ut, enim et nobis explicabo, excepturi doloremque commodi rerum odit a ipsa quisquam nisi. Dolores delectus doloremque, unde porro, omnis quidem sint beatae dolor modi, dicta deserunt.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam praesentium voluptates nostrum consectetur quos magnam illo nulla optio ducimus vitae voluptatem quidem ut, enim et nobis explicabo, excepturi doloremque commodi rerum odit a ipsa quisquam nisi. Dolores delectus doloremque, unde porro, omnis quidem sint beatae dolor modi, dicta deserunt.</p>
+        </aside>
+        <section>
+            <h1>JEEP</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor recusandae animi culpa ipsa, ipsam optio magni similique accusantium eum labore vero numquam corporis minima odio repudiandae assumenda, dolorum ea sunt? Sapiente quasi nesciunt dolor vel ipsam tenetur aut harum quam accusantium natus doloremque iure cupiditate amet, placeat beatae corporis magnam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor recusandae animi culpa ipsa, ipsam optio magni similique accusantium eum labore vero numquam corporis minima odio repudiandae assumenda, dolorum ea sunt? Sapiente quasi nesciunt dolor vel ipsam tenetur aut harum quam accusantium natus doloremque iure cupiditate amet, placeat beatae corporis magnam.</p>
+            
+        </section>
+        <article>
+            <h1>KIA</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestias cupiditate facilis officiis dignissimos ipsa facere nesciunt vitae, sed adipisci a eius beatae! Itaque nemo debitis nostrum repellendus fugiat eius! Molestias numquam laborum corrupti alias excepturi assumenda sapiente rem debitis incidunt possimus ipsam consectetur ea rerum maxime quos, itaque atque.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor recusandae animi culpa ipsa, ipsam optio magni similique accusantium eum labore vero numquam corporis minima odio repudiandae assumenda, dolorum ea sunt? Sapiente quasi nesciunt dolor vel ipsam tenetur aut harum quam accusantium natus doloremque iure cupiditate amet, placeat beatae corporis magnam.</p>
+    
+        </article>
+    </div>
+    <footer >
+        <h4 style="text-align: center;">Footer content</h4>
+    </footer>
+</body>
+</html>

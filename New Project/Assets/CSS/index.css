@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* --------------- Banner -------------------- */
+.main img{
+    width: 100%;
+    height: 250px;
+}
+
+/* ----------------- Navbar ---------------- */
+nav{
+    background-color: aqua;
+    padding: 20px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: larger;
+}
+nav a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* ----------------- Parent -------------- */
+
+.parent{
+    display: flex;
+}
+
+.parent{
+    text-align: center;
+}
+
+/* ----------------- Child 1 ------------------ */
+.parent .child1{
+    padding: 10px;
+}
+
+.parent .child1{
+    flex: 30%;
+}
+
+.parent .child1{
+    background-color: rgb(179, 193, 196);
+}
+
+.parent .child1 p{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.parent .child1 .img{
+    box-shadow: 10px 8px 8px linen;
+    border-radius: 50px;
+}
+.parent .typejwels img{
+width: 300px;
+}
+
+/* ----------------- Child 2 ------------------ */
+.parent .child2{
+    padding: 15px;
+}
+
+
+.parent .child2{
+    flex: 70%;
+}
+
+.parent .child2{
+    background-color: rgb(228, 235, 245);
+}
+.parent .child2 p{
+    text-align: left;
+}
+.parent .child2 h1{
+    text-align: center;
+}
+
+.parent .child2 .gold img{
+    box-shadow: 3px 5px 5px;
+    border: solid 2px;
+    border-radius: 20px;
+}
+
+/* --------------- Footer ------------------ */
+footer{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 150px;
+    color: white;
+}
+
+
+/* -------------- Media Query ---------------- */
+@media (max-width: 800px){
+    .parent{
+        flex-direction: column;
+    }       
+}
